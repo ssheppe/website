@@ -5,15 +5,14 @@ html {
 }
 
 /* navigation */
-ul {
-    list-style-type: none;
+ul.nav {
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: white;
 }
 
-li {
+li.nav {
     float: right;
 }
 
@@ -54,8 +53,42 @@ li {
 }
 
 /*about me*/
-.sam_photo {
-	position: fixed;
+.about {
+    padding: 0px 10px 10px 20px;
+   /* border: 2px solid #73AD21;*/
+    float:right;
+}
+
+.about_image{
+    clear: both;
+    margin: 0 auto;
+    height: 600px;
+    width: 600px;
 
 }
+
+.green{
+    color: #3BA99C
+}
+
+.orange{
+    color: #F46036;
+}
+
+.about_story{
+    clear: both;
+    bottom: 0;
+    height: 600px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.the_office{
+    position: relative;
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+
+}
+
 
