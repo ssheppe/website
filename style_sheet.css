@@ -1,10 +1,57 @@
 html {
 	background-color: white;
-	font-family: Arial;
+	font-family: 'Raleway', sans-serif;
 	font-size: medium;
 }
 
+/* navigation */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
 
+li {
+    float: right;
+}
+
+.active {
+    background-color: #9178C4;
+} 
+
+.navbar-brand {
+    font-family: 'Raleway', sans-serif;
+    float: left;
+    height: 50px;
+    padding: 30px 30px;
+    font-size: 30px;
+    line-height: 20px;
+    color: black;
+    position: fixed;
+}
+
+.navbar-brand:hover {
+    float: left;
+    height: 50px;
+    padding: 30px 30px;
+    font-size: 30px;
+    line-height: 20px;
+    color: #9178C4;
+    position: fixed;
+}
+.nav li a{
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    display: block;
+    padding: 32px 30px;
+    color:black;
+}
+
+.nav li a:hover{
+    color: #9178C4;
+}
 
 /*about me*/
 .sam_photo {
