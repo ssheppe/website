@@ -4,6 +4,14 @@ html {
 	font-size: medium;
 }
 
+a.about_link{
+    color: #F46036;
+    text-decoration: underline;
+}
+
+a.about_link:hover{
+    color: black;
+}
 /* navigation */
 ul.nav {
     margin: 0;
@@ -20,6 +28,10 @@ li.nav {
     background-color: #9178C4;
 } 
 
+
+.navbar-header{
+    text-decoration: underline;
+}
 .navbar-brand {
     font-family: 'Raleway', sans-serif;
     float: left;
@@ -44,7 +56,7 @@ li.nav {
     font-family: 'Raleway', sans-serif;
     position: relative;
     display: block;
-    padding: 32px 30px;
+    padding: 30px 30px;
     color:black;
 }
 
@@ -89,6 +101,12 @@ li.nav {
     height: 400px;
     margin: 0 auto;
 
+}
+
+.index_image{
+    width:800
+    position: relative;
+    margin: 0 auto;
 }
 
 
